@@ -4,17 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>CassbyModel.momd/Model 2.mom</key>
+		<data>
+		b5MxmSI/w3dxEfs8b1uze3FfxXc=
+		</data>
+		<key>CassbyModel.momd/Model 2.omo</key>
+		<data>
+		iANoTptNrIXJmGKth7HZMchCcy8=
+		</data>
 		<key>CassbyModel.momd/Model.mom</key>
 		<data>
 		/IXYy/nkpfUbU5v8i2HKLuc0QY4=
 		</data>
 		<key>CassbyModel.momd/VersionInfo.plist</key>
 		<data>
-		xFvu7JyFRHY/cAFNVhZ6mlEH5cg=
+		Ejxhj7BffWz+Qv8eM1fWtICeUHg=
 		</data>
 		<key>Headers/CassbySDK-Swift.h</key>
 		<data>
-		NIbxVzOqqb3uw4c1q2NIybUHlc4=
+		grlO4gb9bb2yGfSFzZ5IQRJJjRg=
 		</data>
 		<key>Headers/CassbySDK.h</key>
 		<data>
@@ -22,15 +30,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FffpQ/N/aEdaYzgSjCwATCHjKBE=
+		yd+32ONci8x2rnlh6b9VbJoaQWo=
 		</data>
 		<key>Modules/CassbySDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		OSz899a41lKA63YffJ+on8SWcs8=
+		sj1TWtgr5jv+fDG33ocVXv89OxA=
 		</data>
 		<key>Modules/CassbySDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		dQRmc3skPjuzfaVfniE7i5mZGsk=
+		X6C3P/mBgA5ki1A7brph7X1GNMc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,6 +47,20 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>CassbyModel.momd/Model 2.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3g5VcYjvngiFs2WI8rArsve7FGekPf0numuUc93GOLI=
+			</data>
+		</dict>
+		<key>CassbyModel.momd/Model 2.omo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/ZKedCgcBi0ycW+KWdO6bDJMtDE5dOaa/UFM/BqpMgA=
+			</data>
+		</dict>
 		<key>CassbyModel.momd/Model.mom</key>
 		<dict>
 			<key>hash2</key>
@@ -50,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			862RJJzjrkx/wiTQ5bHaSwb7cIngJOuc3dEQVrBGQ7I=
+			vYVpMWmyBk43ajFFhJV8vunFJH1jdCvFS/tTsGbsZgA=
 			</data>
 		</dict>
 		<key>Headers/CassbySDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fR6w+Kpks5RdRxcPIOyaigVypo2lXxt5hX6zKXZeTp0=
+			BIlewHVywMoB+ShAl8+EjYVqSskAhkViUfdWulN1VDE=
 			</data>
 		</dict>
 		<key>Headers/CassbySDK.h</key>
@@ -71,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W7l7e6LoiInHIoRKqTAu53IGPCA+Jd8KEAAUHuxfPwo=
+			TboOVvrCHotxhHQ0gBie9zXJJ90sAqZtqtluVBPW3qQ=
 			</data>
 		</dict>
 		<key>Modules/CassbySDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XIuWcKTgLg+EPYmAPv9ewHLfyHoUjOWf+4+v92ljBfg=
+			WC7jN/nw7DONCLSTVrZrr2lH21Pu/Z8x+bZa3kCTd0w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
