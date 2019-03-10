@@ -17,9 +17,10 @@ public class CassbySDK {
     
     public func launch(token: String) {
         self.token = token
-        self.timer = Repeater.every(.seconds(40), { (repeater) in
+        self.timer = Repeater.every(.seconds(1), { (repeater) in
             let sync = Sync()
             sync.syncData()
+            print("TIMER FIRED")
         })
     }
 }

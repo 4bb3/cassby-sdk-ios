@@ -4,25 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>CassbyModel.momd/Model 2.mom</key>
-		<data>
-		b5MxmSI/w3dxEfs8b1uze3FfxXc=
-		</data>
-		<key>CassbyModel.momd/Model 2.omo</key>
-		<data>
-		iANoTptNrIXJmGKth7HZMchCcy8=
-		</data>
 		<key>CassbyModel.momd/Model.mom</key>
 		<data>
 		/IXYy/nkpfUbU5v8i2HKLuc0QY4=
 		</data>
+		<key>CassbyModel.momd/Model3.mom</key>
+		<data>
+		WsfHxrE3RlLLUBj3U4MhC1v/TEg=
+		</data>
+		<key>CassbyModel.momd/Model3.omo</key>
+		<data>
+		6w9xd+N0A57N4I6zDTZXGgUHHqY=
+		</data>
 		<key>CassbyModel.momd/VersionInfo.plist</key>
 		<data>
-		Ejxhj7BffWz+Qv8eM1fWtICeUHg=
+		SPOGBOz0nqQbnbVe/JYDKGeCxD8=
 		</data>
 		<key>Headers/CassbySDK-Swift.h</key>
 		<data>
-		grlO4gb9bb2yGfSFzZ5IQRJJjRg=
+		N3DQwQAlyg5Au3Dqn6a04aW8r0I=
 		</data>
 		<key>Headers/CassbySDK.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/CassbySDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		X6C3P/mBgA5ki1A7brph7X1GNMc=
+		jM4pYCXskPc1Y2csUufqtQNy5Ig=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,20 +47,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>CassbyModel.momd/Model 2.mom</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3g5VcYjvngiFs2WI8rArsve7FGekPf0numuUc93GOLI=
-			</data>
-		</dict>
-		<key>CassbyModel.momd/Model 2.omo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/ZKedCgcBi0ycW+KWdO6bDJMtDE5dOaa/UFM/BqpMgA=
-			</data>
-		</dict>
 		<key>CassbyModel.momd/Model.mom</key>
 		<dict>
 			<key>hash2</key>
@@ -68,18 +54,32 @@
 			j964bFggxvQEMZd1K38jdkNYL4MectPjbpcMZRsvsK8=
 			</data>
 		</dict>
+		<key>CassbyModel.momd/Model3.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zuhkvQU2toJqJpAWRB1QTx9uE56j0akmSl/pVdFePjA=
+			</data>
+		</dict>
+		<key>CassbyModel.momd/Model3.omo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zAFIIH0wCXF2DBvMSflQE2ZIMF87H12eiXcye3J8evI=
+			</data>
+		</dict>
 		<key>CassbyModel.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vYVpMWmyBk43ajFFhJV8vunFJH1jdCvFS/tTsGbsZgA=
+			Z6+lp8NAluaU8ZV3ybZT9uIQczKdpJQI22YKRvmNHVY=
 			</data>
 		</dict>
 		<key>Headers/CassbySDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BIlewHVywMoB+ShAl8+EjYVqSskAhkViUfdWulN1VDE=
+			8PzLPkECLUOxAjR6eK7xF4KdIBE8WjYLlFlw4triO+Y=
 			</data>
 		</dict>
 		<key>Headers/CassbySDK.h</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WC7jN/nw7DONCLSTVrZrr2lH21Pu/Z8x+bZa3kCTd0w=
+			8SZoU3an0qUqG9LOz0BqiRRp92WpusC4XX5HrgykrTc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

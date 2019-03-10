@@ -67,6 +67,7 @@ internal class DB {
         managedObject.dt_created = check.dt_created
         managedObject.is_synced = check.is_synced
         managedObject.uuid = check.uuid
+        managedObject.id_branch = Int64(check.id_branch)
 
         if let payment = check.payment {
             guard let paymentEntity = NSEntityDescription.entity(forEntityName: "PaymentEntity", in: managedObjectContext) else { return }
@@ -151,5 +152,41 @@ internal class DB {
         }
         
         return []
+    }
+    
+    func deleteCheck() {
+        let deleteFetch = NSFetchRequest<NSFetchRequestResult>(entityName: "CheckEntity")
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: deleteFetch)
+        
+        do {
+            try managedObjectContext?.execute(deleteRequest)
+            try managedObjectContext?.save()
+        } catch {
+            print ("There was an error")
+        }
+    }
+    
+    func deleteCheck_items() {
+        let deleteFetch = NSFetchRequest<NSFetchRequestResult>(entityName: "CheckItemEntity")
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: deleteFetch)
+        
+        do {
+            try managedObjectContext?.execute(deleteRequest)
+            try managedObjectContext?.save()
+        } catch {
+            print ("There was an error")
+        }
+    }
+    
+    func deletePayments() {
+        let deleteFetch = NSFetchRequest<NSFetchRequestResult>(entityName: "PaymentEntity")
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: deleteFetch)
+        
+        do {
+            try managedObjectContext?.execute(deleteRequest)
+            try managedObjectContext?.save()
+        } catch {
+            print ("There was an error")
+        }
     }
 }

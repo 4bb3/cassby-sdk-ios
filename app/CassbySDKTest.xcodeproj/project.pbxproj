@@ -14,8 +14,9 @@
 		3329CC9C21ECB187003421D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3329CC9A21ECB187003421D1 /* LaunchScreen.storyboard */; };
 		3329CCA721ECB187003421D1 /* CassbySDKTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3329CCA621ECB187003421D1 /* CassbySDKTestTests.swift */; };
 		3329CCB221ECB187003421D1 /* CassbySDKTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3329CCB121ECB187003421D1 /* CassbySDKTestUITests.swift */; };
-		3339222C21ECE26C00AFBC11 /* CassbySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3339222921ECE14900AFBC11 /* CassbySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3339223421ECFB8B00AFBC11 /* CassbySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3339222921ECE14900AFBC11 /* CassbySDK.framework */; };
+		8C52FC512233B1A600D28C35 /* CassbySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C52FC502233B1A600D28C35 /* CassbySDK.framework */; };
+		8C52FC522233B1FC00D28C35 /* CassbySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C52FC502233B1A600D28C35 /* CassbySDK.framework */; };
+		8C52FC532233B1FC00D28C35 /* CassbySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C52FC502233B1A600D28C35 /* CassbySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3339222C21ECE26C00AFBC11 /* CassbySDK.framework in Embed Frameworks */,
+				8C52FC532233B1FC00D28C35 /* CassbySDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +64,7 @@
 		3329CCAD21ECB187003421D1 /* CassbySDKTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassbySDKTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3329CCB121ECB187003421D1 /* CassbySDKTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassbySDKTestUITests.swift; sourceTree = "<group>"; };
 		3329CCB321ECB187003421D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3339222921ECE14900AFBC11 /* CassbySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CassbySDK.framework; sourceTree = "<group>"; };
+		8C52FC502233B1A600D28C35 /* CassbySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CassbySDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3339223421ECFB8B00AFBC11 /* CassbySDK.framework in Frameworks */,
+				8C52FC522233B1FC00D28C35 /* CassbySDK.framework in Frameworks */,
+				8C52FC512233B1A600D28C35 /* CassbySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +118,7 @@
 		3329CC9021ECB183003421D1 /* CassbySDKTest */ = {
 			isa = PBXGroup;
 			children = (
-				3339222921ECE14900AFBC11 /* CassbySDK.framework */,
+				8C52FC502233B1A600D28C35 /* CassbySDK.framework */,
 				3329CC9121ECB183003421D1 /* AppDelegate.swift */,
 				3329CC9321ECB183003421D1 /* ViewController.swift */,
 				3329CC9521ECB183003421D1 /* Main.storyboard */,

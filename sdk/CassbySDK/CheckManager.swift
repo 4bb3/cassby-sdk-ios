@@ -8,25 +8,22 @@
 
 import Foundation
 
-public class CheckManager {
+open class CheckManager {
     
     private var check: Check
     private var database: DB
     
-    public init() {
-        self.check = Check.init()
+    public init(id_branch: Int) {
+        self.check = Check(id_branch: id_branch)
         self.database = DB()
     }
     
     public func addToCheck(name: String, price: Int, qty: Int) {
         self.check.addCheckItem(name: name, price: price, qty: qty)
     }
-    
-    public func addPayment() {
-        self.check.addPayment(payment: Payment.init(check: self.check))
-    }
-    
+
     public func commit() {
+        self.check.addPayment(payment: Payment.init(check: self.check))
         database.insert(check: self.check)
     }
     

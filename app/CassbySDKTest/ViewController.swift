@@ -13,9 +13,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let manager = CheckManager.init()
-        manager.addToCheck(name: "Водка", price: 1900, qty: 1)
-        manager.commit()
+        let check = CheckManager(id_branch: 1)
+        check.addToCheck(name: "Пикачу", price: 1900, qty: 1)
+        check.commit()
+        
+        let check2 = CheckManager(id_branch: 2)
+        check2.addToCheck(name: "Чупачупс", price: 1900, qty: 1)
+        check2.commit()
     }
 }
 

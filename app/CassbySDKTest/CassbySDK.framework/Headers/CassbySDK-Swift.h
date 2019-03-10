@@ -211,6 +211,7 @@ SWIFT_CLASS("_TtC9CassbySDK11CheckEntity")
 
 @interface CheckEntity (SWIFT_EXTENSION(CassbySDK))
 @property (nonatomic, copy) NSString * _Nullable dt_created;
+@property (nonatomic) int64_t id_branch;
 @property (nonatomic) BOOL is_synced;
 @property (nonatomic) int64_t total;
 @property (nonatomic, copy) NSString * _Nullable uuid;
@@ -229,7 +230,7 @@ SWIFT_CLASS("_TtC9CassbySDK15CheckItemEntity")
 @property (nonatomic) BOOL is_synced;
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic) int64_t price;
-@property (nonatomic) double qty;
+@property (nonatomic) int64_t qty;
 @property (nonatomic, copy) NSString * _Nullable uuid;
 @property (nonatomic, copy) NSString * _Nullable uuid_check;
 @end

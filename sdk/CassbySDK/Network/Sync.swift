@@ -10,6 +10,8 @@ import Foundation
 
 class Sync {
     
+    var url = "http://192.168.0.140:3002"
+    
     func prepareActivity() -> Root {
         let db = DB()
     
@@ -26,34 +28,30 @@ class Sync {
         let token = CassbySDK.shared.token
         
         if data.activity.check.isEmpty == false && data.activity.check_item.isEmpty == false && data.activity.payment.isEmpty == false {
-            let request = NSMutableURLRequest(url: URL(string: "https://cassby.com/api/v2/app/activity?token=" + token)!)
+            var request = URLRequest(url: URL(string: self.url + "/activity?token=" + token)!)
             request.httpMethod = "POST"
-            let session = URLSession.shared
-            
-            let jsonEncoder = JSONEncoder()
+            request.setValue("application/json", forHTTPHeaderField: "Content-type")
             
             do {
-                let jsonData = try jsonEncoder.encode(data)
+                let jsonData = try JSONEncoder().encode(data)
                 request.httpBody = jsonData
-                let task = session.dataTask(with: request as URLRequest) { data, response, error in
-                    guard let data = data else { return }
-                    do {
-//                        let gitData = try JSONDecoder().decode(ResponseRoot.self, from: data)
-//                        print("response data:", gitData)
-                        
-                        guard let json = try JSONSerialization.jsonObject(with: data, options: []) as? NSDictionary else {
-                            return
+                let task = URLSession.shared.dataTask(with: request as URLRequest) { data, response, error in
+                    guard data != nil else { return }
+                    
+                    if let httpResponse = response as? HTTPURLResponse {
+                        if httpResponse.statusCode == 200 {
+                            let db = DB()
+                            db.deleteCheck()
+                            db.deleteCheck_items()
+                            db.deletePayments()
                         }
-                        print(json)
-                        
-                    } catch let err {
-                        print("Err", err)
                     }
+                    
                 }
                 
                 task.resume()
-            } catch let err  {
-                print("Error encoding data:", err)
+            } catch _  {
+                
             }
         }
     }
