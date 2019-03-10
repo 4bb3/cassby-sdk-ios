@@ -230,7 +230,7 @@ SWIFT_CLASS("_TtC9CassbySDK15CheckItemEntity")
 @property (nonatomic) BOOL is_synced;
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic) int64_t price;
-@property (nonatomic) int64_t qty;
+@property (nonatomic) double qty;
 @property (nonatomic, copy) NSString * _Nullable uuid;
 @property (nonatomic, copy) NSString * _Nullable uuid_check;
 @end

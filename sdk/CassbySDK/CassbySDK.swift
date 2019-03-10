@@ -20,7 +20,6 @@ public class CassbySDK {
         self.timer = Repeater.every(.seconds(1), { (repeater) in
             let sync = Sync()
             sync.syncData()
-            print("TIMER FIRED")
         })
     }
 }

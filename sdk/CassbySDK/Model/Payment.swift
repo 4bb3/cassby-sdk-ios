@@ -28,7 +28,7 @@ class Payment: Codable {
         var total = 0
         
         for item in check.items {
-            total = total + item.qty * item.price
+            total = total + Int(item.qty * Double(item.price))
         }
         
         self.amount = total

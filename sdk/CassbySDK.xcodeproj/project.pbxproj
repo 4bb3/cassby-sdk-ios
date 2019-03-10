@@ -60,6 +60,7 @@
 		334C4401220DC0CB0019DDF9 /* ResponseObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseObj.swift; sourceTree = "<group>"; };
 		334C4403220DC1EB0019DDF9 /* Repeater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repeater.swift; sourceTree = "<group>"; };
 		8C52FC4D2233A8A100D28C35 /* Model3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model3.xcdatamodel; sourceTree = "<group>"; };
+		8C52FC5D2234C32800D28C35 /* Model4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model4.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -559,10 +560,11 @@
 		3329CC7421E8C848003421D1 /* CassbyModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				8C52FC5D2234C32800D28C35 /* Model4.xcdatamodel */,
 				8C52FC4D2233A8A100D28C35 /* Model3.xcdatamodel */,
 				3329CC7521E8C848003421D1 /* Model.xcdatamodel */,
 			);
-			currentVersion = 8C52FC4D2233A8A100D28C35 /* Model3.xcdatamodel */;
+			currentVersion = 8C52FC5D2234C32800D28C35 /* Model4.xcdatamodel */;
 			path = CassbyModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -12,7 +12,7 @@ internal class CheckItem: Codable {
     
     var uuid: String = UUID().uuidString
     var uuid_check: String = ""
-    var qty: Int = 1
+    var qty: Double = 1
     var price: Int = 0
     var is_synced: Bool = false
     var name: String = ""
@@ -21,13 +21,13 @@ internal class CheckItem: Codable {
         self.init()
         self.uuid = managedObject.uuid ?? ""
         self.uuid_check = managedObject.uuid_check ?? ""
-        self.qty = Int(managedObject.qty)
+        self.qty = managedObject.qty
         self.price = Int(managedObject.price)
         self.is_synced = managedObject.is_synced
         self.name = managedObject.name ?? ""
     }
     
-    internal convenience init(check: Check, name: String, price: Int, qty: Int) {
+    internal convenience init(check: Check, name: String, price: Int, qty: Double) {
         self.init()
         self.uuid_check = check.uuid
         self.name = name

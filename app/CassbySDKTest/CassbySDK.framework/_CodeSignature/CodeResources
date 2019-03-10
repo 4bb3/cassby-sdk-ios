@@ -12,17 +12,21 @@
 		<data>
 		WsfHxrE3RlLLUBj3U4MhC1v/TEg=
 		</data>
-		<key>CassbyModel.momd/Model3.omo</key>
+		<key>CassbyModel.momd/Model4.mom</key>
 		<data>
-		6w9xd+N0A57N4I6zDTZXGgUHHqY=
+		b0UwFb5ZNr2i18Y3bXbCJTFJnRs=
+		</data>
+		<key>CassbyModel.momd/Model4.omo</key>
+		<data>
+		3KiXp1OPpEEeUX9wDn/Z+cpAPwA=
 		</data>
 		<key>CassbyModel.momd/VersionInfo.plist</key>
 		<data>
-		SPOGBOz0nqQbnbVe/JYDKGeCxD8=
+		P/YoCIrToEl70lITZmvXCDrocZQ=
 		</data>
 		<key>Headers/CassbySDK-Swift.h</key>
 		<data>
-		N3DQwQAlyg5Au3Dqn6a04aW8r0I=
+		zVFNu91/22VDEBuSg/VHUIuqEys=
 		</data>
 		<key>Headers/CassbySDK.h</key>
 		<data>
@@ -38,7 +42,7 @@
 		</data>
 		<key>Modules/CassbySDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		jM4pYCXskPc1Y2csUufqtQNy5Ig=
+		i/lSsYCjK2TWJE1iA8eEuRecRZs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,25 +65,32 @@
 			zuhkvQU2toJqJpAWRB1QTx9uE56j0akmSl/pVdFePjA=
 			</data>
 		</dict>
-		<key>CassbyModel.momd/Model3.omo</key>
+		<key>CassbyModel.momd/Model4.mom</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zAFIIH0wCXF2DBvMSflQE2ZIMF87H12eiXcye3J8evI=
+			axnOC9BP8d7QYW0EGU8xOj8sl0YoJh0RXaWvfxhrmbU=
+			</data>
+		</dict>
+		<key>CassbyModel.momd/Model4.omo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			X3Wpb2ge3aTbNoYmPsEfb+qiHcCF8lTDIcEagtuoK0A=
 			</data>
 		</dict>
 		<key>CassbyModel.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z6+lp8NAluaU8ZV3ybZT9uIQczKdpJQI22YKRvmNHVY=
+			e5n4QlSdffP6ijV60jCmQHOHSWRJtrh24mjieRp4g0U=
 			</data>
 		</dict>
 		<key>Headers/CassbySDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8PzLPkECLUOxAjR6eK7xF4KdIBE8WjYLlFlw4triO+Y=
+			sJeR9Xz3GbuTQFrd1IY56ThgZV9oYJ8ZFOAi/D6I16M=
 			</data>
 		</dict>
 		<key>Headers/CassbySDK.h</key>
@@ -100,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8SZoU3an0qUqG9LOz0BqiRRp92WpusC4XX5HrgykrTc=
+			NXMVcB3BYZT9RAEabQZgbOxuRAkn+yqlA1uKsjK9TiY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

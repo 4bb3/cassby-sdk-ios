@@ -32,8 +32,11 @@ internal class DB {
             fatalError("Unable to resolve document directory")
         }
         let storeURL = docURL.appendingPathComponent("DataModel.sqlite")
+        
+        let options = [NSMigratePersistentStoresAutomaticallyOption: true,
+                       NSInferMappingModelAutomaticallyOption: true]
         do {
-            try psc.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: nil)
+            try psc.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: options)
             //The callback block is expected to complete the User Interface and therefore should be presented back on the main queue so that the user interface does not need to be concerned with which queue this call is coming from.
         } catch {
             fatalError("Error migrating store: \(error)")
@@ -94,7 +97,7 @@ internal class DB {
             printerCheckItemEntity.is_synced = item.is_synced
             printerCheckItemEntity.name = item.name
             printerCheckItemEntity.price = Int64(item.price)
-            printerCheckItemEntity.qty = Int64(item.qty)
+            printerCheckItemEntity.qty = item.qty
             printerCheckItemEntity.uuid = item.uuid
             printerCheckItemEntity.uuid_check = item.uuid_check
             managedObject.addToItems(printerCheckItemEntity)

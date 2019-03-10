@@ -15,8 +15,9 @@
 		3329CCA721ECB187003421D1 /* CassbySDKTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3329CCA621ECB187003421D1 /* CassbySDKTestTests.swift */; };
 		3329CCB221ECB187003421D1 /* CassbySDKTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3329CCB121ECB187003421D1 /* CassbySDKTestUITests.swift */; };
 		8C52FC512233B1A600D28C35 /* CassbySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C52FC502233B1A600D28C35 /* CassbySDK.framework */; };
-		8C52FC522233B1FC00D28C35 /* CassbySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C52FC502233B1A600D28C35 /* CassbySDK.framework */; };
 		8C52FC532233B1FC00D28C35 /* CassbySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C52FC502233B1A600D28C35 /* CassbySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8C52FC592234BE4100D28C35 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C52FC572234BE3200D28C35 /* SnapKit.framework */; };
+		8C52FC5A2234BE4100D28C35 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C52FC572234BE3200D28C35 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				8C52FC532233B1FC00D28C35 /* CassbySDK.framework in Embed Frameworks */,
+				8C52FC5A2234BE4100D28C35 /* SnapKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +67,7 @@
 		3329CCB121ECB187003421D1 /* CassbySDKTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassbySDKTestUITests.swift; sourceTree = "<group>"; };
 		3329CCB321ECB187003421D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C52FC502233B1A600D28C35 /* CassbySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CassbySDK.framework; sourceTree = "<group>"; };
+		8C52FC572234BE3200D28C35 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C52FC522233B1FC00D28C35 /* CassbySDK.framework in Frameworks */,
 				8C52FC512233B1A600D28C35 /* CassbySDK.framework in Frameworks */,
+				8C52FC592234BE4100D28C35 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				8C52FC502233B1A600D28C35 /* CassbySDK.framework */,
+				8C52FC572234BE3200D28C35 /* SnapKit.framework */,
 				3329CC9121ECB183003421D1 /* AppDelegate.swift */,
 				3329CC9321ECB183003421D1 /* ViewController.swift */,
 				3329CC9521ECB183003421D1 /* Main.storyboard */,
@@ -467,6 +471,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CassbySDKTest",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CassbySDKTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -489,6 +494,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CassbySDKTest",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CassbySDKTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

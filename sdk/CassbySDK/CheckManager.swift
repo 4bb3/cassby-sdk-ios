@@ -18,7 +18,7 @@ open class CheckManager {
         self.database = DB()
     }
     
-    public func addToCheck(name: String, price: Int, qty: Int) {
+    public func addToCheck(name: String, price: Int, qty: Double) {
         self.check.addCheckItem(name: name, price: price, qty: qty)
     }
 

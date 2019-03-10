@@ -30,7 +30,7 @@ internal class Check: Codable {
         self.id_branch = Int(managedObject.id_branch)
     }
     
-    internal func addCheckItem(name: String, price: Int, qty: Int) {
+    internal func addCheckItem(name: String, price: Int, qty: Double) {
         items.append(CheckItem(check: self, name: name, price: price, qty: qty))
     }
     
