@@ -2,7 +2,7 @@
 
 <b>Carthage</b>
 ```
-github "SnapKit/SnapKit" ~> 3.2.0
+gitHub "4bb3/cassby-sdk-ios"
 ```
 <h1>Usage</h1>
 
