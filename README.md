@@ -2,7 +2,7 @@
 
 <b>Carthage</b>
 ```
-github "SnapKit/SnapKit" ~> 3.2.0
+gitHub "4bb3/cassby-sdk-ios"
 ```
 <h1>Usage</h1>
 
@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 let check = CheckManager(id_branch: ID_BRANCH)
 check.addToCheck(name: POSITION_NAME, price: PRICE_IN_KOPS, qty: QTY)
-check.addToCheck(name: POSITION_NAME_@, price: PRICE_IN_KOPS, qty: QTY)
+check.addToCheck(name: POSITION_NAME_2, price: PRICE_IN_KOPS, qty: QTY)
 check.commit()
 
 ```
