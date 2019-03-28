@@ -87,7 +87,7 @@ internal class DB {
             paymentEntityObject.status = payment.status
             paymentEntityObject.uuid = payment.uuid
             paymentEntityObject.uuid_check = payment.uuid_check
-            managedObject.addToPayment(paymentEntityObject)
+//            managedObject.addToPayment(paymentEntityObject)
         }
 
         for item in check.items {
@@ -100,7 +100,7 @@ internal class DB {
             printerCheckItemEntity.qty = item.qty
             printerCheckItemEntity.uuid = item.uuid
             printerCheckItemEntity.uuid_check = item.uuid_check
-            managedObject.addToItems(printerCheckItemEntity)
+//            managedObject.addToItems(printerCheckItemEntity)
         }
 
         saveContext()
