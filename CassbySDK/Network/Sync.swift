@@ -10,7 +10,7 @@ import Foundation
 
 class Sync {
     
-    var url = "http://46.101.175.222"
+    var url = "https://public.cassby.com"
     
     func prepareActivity() -> Root {
         let db = DB()
