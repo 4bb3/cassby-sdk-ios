@@ -22,7 +22,7 @@ class Payment: Codable {
     internal var pne_id: String = ""
     internal var pne_error_code: String = ""
     
-    internal init(check: Check) {
+    internal init(check: Check, pneId: String?) {
         self.uuid_check = check.uuid
         
         var total = 0
@@ -32,6 +32,9 @@ class Payment: Codable {
         }
         
         self.amount = total
+        if let pneId = pneId {
+            self.pne_id = pneId
+        }
     }
     
     internal init(managedObject: PaymentEntity) {

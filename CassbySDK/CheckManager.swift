@@ -12,10 +12,12 @@ open class CheckManager {
     
     private var check: Check
     private var database: DB
+    private var pneId: String?
     
-    public init(id_branch: Int) {
+    public init(id_branch: Int, pneId: String?) {
         self.check = Check(id_branch: id_branch)
         self.database = DB()
+        self.pneId = pneId
     }
     
     public func addToCheck(name: String, price: Int, qty: Double) {
@@ -23,7 +25,7 @@ open class CheckManager {
     }
 
     public func commit() {
-        self.check.addPayment(payment: Payment.init(check: self.check))
+        self.check.addPayment(payment: Payment.init(check: self.check, pneId: pneId))
         database.insert(check: self.check)
     }
     
