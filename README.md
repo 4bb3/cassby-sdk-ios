@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ```
 
-let check = CheckManager(id_branch: ID_BRANCH)
+let check = CheckManager(id_branch: ID_BRANCH, pneId: PNE_ID)
 check.addToCheck(name: POSITION_NAME, price: PRICE_IN_KOPS, qty: QTY)
 check.addToCheck(name: POSITION_NAME_2, price: PRICE_IN_KOPS, qty: QTY)
 check.commit()
